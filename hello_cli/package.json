@@ -1,0 +1,9 @@
+{
+		"name": "hello_cli",
+		"version": "0.0.1",
+		"description": "First node.js script for CLI.",
+		"author": "Lin Quan Studio.",
+		"engines": {"node": ">=0.10"},
+		"dependencies": {},
+		"bin": {"hello_cli": "hello_cli.js"}
+}
