@@ -6,14 +6,15 @@ linux(OS Xも？)だと[envコマンド](https://linuxjm.osdn.jp/html/gnumaniak/
 
 スクリプトの先頭に、
 
-```
+```js
 #!/usr/bin/env node
 ```
 
 と書いてスクリプトに実行権限を付与するだけ。
 
-(スクリプト hello_cls.js)
-```
+
+
+```js:hello_cls.js
 #!/usr/bin/env node
 /*
 node.jsのスクリプトをコマンドラインツールとして動作させる
@@ -24,8 +25,8 @@ console.log("Hello, CLI.");
 
 ならば、スクリプトがあるディレクトリで、
 
-(実行)
-```
+```shell-session:hello_cli.jsを実行
+
  $ ./hello_cli.js
  Hello, CLI.
  $
@@ -38,8 +39,7 @@ console.log("Hello, CLI.");
 
 インストールの設定のためにpackage.jsonファイルを作成する。
 
-(package.json)
-```
+```json:package.json
 {
 		"name": "hello_cli",
 		"version": "0.0.1",
@@ -55,7 +55,7 @@ console.log("Hello, CLI.");
 
 書いたらそのディレクトリで、
 
-```
+```shell-session:グローバルインストール
  $ sudo npm install -g
 
 ```
@@ -64,10 +64,4 @@ console.log("Hello, CLI.");
 
 DOS(Windows)のコマンドプロンプトでは、envコマンドがなければスクリプトを直接実行はできないが、グローバルインストールすれば実行できるようになるので便利。
 
-
-
-
-
-
-
-
+* [GitHub](https://github.com/hayashiisme/node.js-cli/tree/master/hello_cli)
