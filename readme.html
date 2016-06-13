@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>readme.md</title><style>
+@charset "UTF-8";
+
+.font09{ font-size: 0.9rem;}
+.font08{ font-size: 0.8rem;}
+.font07{ font-size: 0.7rem;}
+.font06{ font-size: 0.6rem;}
+.font05{ font-size: 0.5rem;}
+.font04{ font-size: 0.4rem;}
+.font03{ font-size: 0.3rem;}
+.font02{ font-size: 0.2rem;}
+
+.margin0{ margin: 0px;}
+
+div.tablecollapse table{
+	border-collapse: collapse;
+/*	margin:0;*/
+}
+
+div.tableborder th, div.tableborder td{
+	white-space: nowrap;
+	border: 1px solid #C0C0C0;
+	padding: 0.2rem 0.4rem;
+}
+
+
+div.include{
+	height:25em;
+	border:1px solid #C0C0C0;
+	width:auto;
+	overflow:auto;
+	margin:8pt 32pt 8pt 20pt;
+	padding:1em 0;
+} 
+
+div.pb{page-break-after:always;}
+div.cl{clear:both;}
+
+dl.short{
+  margin:0;
+	margin-left:36pt;
+  padding:0;
+	/*  background-color:#E0FFFF;*/
+}
+dl.short dt{
+  width: 9em;
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-style: normal; font-weight: bold;
+  /*background-color:#D0FFFF;*/
+}
+dl.short dd{
+  margin:0;
+  padding:0; padding-left:10em;
+	/*  background-color:#B0FFFF;*/
+}
+dl.short dd a{
+  font-weight: bold;
+}
+
+div.tree ul{list-style-type:none;margin:0;padding:0 20pt 0 1.5em;}
+div.tree span.d:before{content:"- ";}
+div.tree span.d{font-weight:bold;font-style:oblique;}
+div.tree span.f:before{content:"・ ";}
+div.tree span.f{font-weight:bold;}
+
+span.red{color:#A00000;font-weight:bold;}
+span.green{color:#00A000;font-weight:bold;}
+span.blue{color:#0000A0;font-weight:bold;}
+
+@charset "UTF-8";
+html{
+  font-family: "Avenir Next", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", Meiryo, Verdana, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+  width: 640px;
+  margin: 20px 2em;
+  font-size: 10pt;
+	counter-reset: numberh2;
+	counter-reset: numberh3;
+	counter-reset: numberh4;
+	counter-reset: numberh5;
+}
+
+pre, code, var, samp, kbd{
+  font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+}
+
+
+h1{ font-size: 14pt; font-weight: bold; color:#333300; width:100%; border-bottom: 2px solid #222222;}
+h2{ font-size: 13pt; font-weight: bold; color:#333300; width:100%; border-bottom: 1px solid #444444; margin-top:1.5em;margin-bottom:1em;}
+h3{ font-size: 11pt; font-weight: bold; color:#333300; margin-top:1em;margin-bottom:0.5em;}
+h4, h5{ font-size: 10pt; font-weight: bold; color:#333300;}
+
+h2:before{ content: counter(numberh2) ". ";}
+h2{ counter-increment: numberh2; counter-reset: numberh3;}
+h3:before{ content: counter(numberh2) "-" counter(numberh3) ". ";}
+h3{	counter-increment: numberh3; counter-reset: numberh4;}
+h4:before{ content: "(" counter(numberh4, upper-latin) ") ";}
+h4{	counter-increment: numberh4; counter-reset: numberh5;}
+h5:before{ content: "[" counter(numberh5, lower-latin) "] ";}
+h5{	counter-increment: numberh5;}
+
+p{ margin: 8pt 20pt;}
+pre{ margin: 8pt 20pt; background-color: #C0C0A0;
+		 }
+dl{ margin:5px 0px 5px 20pt;}
+
+div.pb{page-break-after:always;}
+div.rightbox{float:right;}
+
+img.dialog{ width:420px;}
+img.screencapture{ width:600px;}
+img.mobile{ width:200px;}
+
+table{ margin: 8pt 20pt; padding:0; border:solid 1px #444444; width:420px;}
+tr{margin: 0; padding: 0;}
+th, td{margin: 0; padding: 2px; border:solid 1px #444444;}
+
+
+</style></head><body>
+<h1>node.js-cli</h1>
+</body></html>
