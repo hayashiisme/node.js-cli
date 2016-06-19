@@ -1,6 +1,6 @@
-# Node.jsからPostgreSQLを使う
+# node.jsからPostgreSQLを使う
 
-Node.jsからPostgreSQLを使う場合のあれこれ
+node.jsからPostgreSQLを使う場合のあれこれ
 
 ## 基本アクセスはpg
 

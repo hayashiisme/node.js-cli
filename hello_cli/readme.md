@@ -14,7 +14,7 @@ linux(OS Xも？)だと[envコマンド](https://linuxjm.osdn.jp/html/gnumaniak/
 
 
 
-```js:hello_cls.js
+```js:hello_cli.js
 #!/usr/bin/env node
 /*
 node.jsのスクリプトをコマンドラインツールとして動作させる
